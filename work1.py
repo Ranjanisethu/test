@@ -1,0 +1,6 @@
+a=input("enter your name:")
+b=input("enter your dep:")
+c=int(input("Enter you age:"))
+print("Name:",a)
+print("Department:",b)
+print("Age:",c)

@@ -27,6 +27,7 @@ session = Session()
 movie1 = Movie(title='3', genre='Drama', release_date=datetime.strptime("12.3.25", "%y.%m.%d").date(), rating=3.6, hero="dhanush")
 movie2 = Movie(title='vikram', genre='Action, Crime, Drama', release_date=datetime.strptime("14.4.12", "%y.%m.%d").date(), rating=5.0, hero="kamalhassan")
 movie3 = Movie(title='leo', genre='Crime, Drama', release_date=datetime.strptime("23.4.24", "%y.%m.%d").date(), rating=4.6, hero="joseph vijay")
+movie3 = Movie(title='jawan', genre='Crime, Drama', release_date=datetime.strptime("23.4.24", "%y.%m.%d").date(), rating=4.6, hero="joseph vijay")
 session.add_all([movie1, movie2, movie3])
 session.commit()
 
